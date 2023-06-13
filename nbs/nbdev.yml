@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tts-0"
+  site-url: "https://ahadjawaid.github.io/tts-0"
+  description: "TTS framework"
+  repo-branch: main
+  repo-url: "https://github.com/ahadjawaid/tts-0"
