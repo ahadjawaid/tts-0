@@ -1,0 +1,6 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00-data.ipynb
+      - 01-learn.ipynb
