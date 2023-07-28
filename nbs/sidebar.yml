@@ -4,3 +4,9 @@ website:
       - index.ipynb
       - 00-data.ipynb
       - 01-learn.ipynb
+      - 02-hifigan.ipynb
+      - 03-contrastive-loss-speech.ipynb
+      - 04-gpt.ipynb
+      - 05-fastspeech.ipynb
+      - 06-tts-data.ipynb
+      - 08-training-fastspeech.ipynb
