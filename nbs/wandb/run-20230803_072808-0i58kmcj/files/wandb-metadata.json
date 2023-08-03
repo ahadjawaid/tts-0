@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-08-03T14:28:09.289731",
+    "startedAt": "2023-08-03T14:28:08.748593",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "nbs/06-training-fastspeech.ipynb",
+    "root": "/Users/tk541/programming/ml/torch/tts-0",
+    "git": {
+        "remote": "https://github.com/ahadjawaid/tts-0.git",
+        "commit": "2ef8b47f65080471aeb6e8921e9c721a58472200"
+    },
+    "email": "94938815+ahadjawaid@users.noreply.github.com",
+    "host": "TK-513.local",
+    "username": "tk541",
+    "executable": "/Users/tk541/mambaforge/envs/torch/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 380.34610748291016
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

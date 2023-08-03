@@ -41,7 +41,7 @@ def to_device(x: Tensor, device: str = def_device) -> Tensor:
     if isinstance(x, Mapping): 
         return {key: value.to(device) for key, value in x.items()}
         
-    return type(x)(to_device(item) for item in x)
+    return type(x)(to_device(item, device=device) for item in x)
 
 def to_cpu(x: Tensor) -> Tensor:
     if isinstance(x, Mapping):
