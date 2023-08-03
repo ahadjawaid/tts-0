@@ -1,0 +1,96 @@
+wandb_version: 1
+
+max_lr:
+  desc: null
+  value: 0.3
+n_epochs:
+  desc: null
+  value: 2
+n_batches:
+  desc: null
+  value: 1091
+n_steps:
+  desc: null
+  value: 2182
+parameters:
+  desc: null
+  value: 88385
+embedding_size:
+  desc: null
+  value: 86
+hidden_channels:
+  desc: null
+  value: 32
+filter_channels:
+  desc: null
+  value: 128
+out_channels:
+  desc: null
+  value: 80
+ks:
+  desc: null
+  value: 3
+n_heads:
+  desc: null
+  value: 2
+n_hidden:
+  desc: null
+  value: 0
+p_dropout:
+  desc: null
+  value: 0.1
+n_encoders:
+  desc: null
+  value: 1
+n_decoder:
+  desc: null
+  value: 1
+Activation:
+  desc: null
+  value: torch.nn.modules.activation.ReLU
+init_fn:
+  desc: null
+  value: functools.partial(<function kaiming_normal_ at 0x10a7c5f30>, nonlinearity='relu')
+device:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.8
+    cli_version: 0.15.7
+    framework: fastai
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    start_time: 1691071613.171218
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      3:
+      - 1
+      - 2
+      - 16
+      - 23
+      4: 3.10.8
+      5: 0.15.7
+      8:
+      - 1
+      - 2
+      - 4
+      - 5

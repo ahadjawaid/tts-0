@@ -228,7 +228,7 @@ class MetricsCB(Callback):
         self.all_metrics = copy(metrics)
         self.all_metrics["loss"] = self.loss = Mean()
     
-    def _log(self, d: dict) -> None:
+    def _log(self, d: dict, *args, **kwargs) -> None:
         print(d)
     
     def before_fit(self, learn: Learner) -> None:
@@ -251,7 +251,7 @@ class MetricsCB(Callback):
         log["epoch"] = learn.epoch
         log["type"] = "train" if learn.training else "eval"
         
-        self._log(log)
+        self._log(log, learn=learn)
 
 # %% ../nbs/01-learn.ipynb 24
 class ProgressCB(Callback):
@@ -260,7 +260,7 @@ class ProgressCB(Callback):
     def __init__(self, plot: bool = False) -> None:
         self.plot = plot
     
-    def _log(self, d: dict) -> None:
+    def _log(self, d: dict, *args, **kwargs) -> None:
         if self.first:
             self.mbar.write(list(d), table=True)
             self.first = False
